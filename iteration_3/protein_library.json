@@ -1,0 +1,404 @@
+{
+  "sequences": [
+    {
+      "id": "seq_0",
+      "sequence": "MHYTSFWFQFSDCTHHRYTYRYHYMD"
+    },
+    {
+      "id": "seq_1",
+      "sequence": "MHYTNFWFQFSDCYHYTYPYRYHYMD"
+    },
+    {
+      "id": "seq_2",
+      "sequence": "VPDIWEMFSPHHNQKCEGRGPKMICGY"
+    },
+    {
+      "id": "seq_3",
+      "sequence": "VYDIWETFPPHHNQKEERRGPKGWCGY"
+    },
+    {
+      "id": "seq_4",
+      "sequence": "MHYQSFWFQFSDCYHHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_5",
+      "sequence": "VYDIWETFLPHTNQQRELRGTKMWCGY"
+    },
+    {
+      "id": "seq_6",
+      "sequence": "VYTPIEMFSPHHNQKCEGRGPKMICGY"
+    },
+    {
+      "id": "seq_7",
+      "sequence": "MHYTSFWFQFSDCRHHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_8",
+      "sequence": "VYDIWETFLPHHGQKCEGRGPKMWCGN"
+    },
+    {
+      "id": "seq_9",
+      "sequence": "VYDIWETFLPHTNRKCELDGPHMWCGY"
+    },
+    {
+      "id": "seq_10",
+      "sequence": "VYRIWETFKPHHNKKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_11",
+      "sequence": "VYDIWETFLPHHNQKCVGRGPKGWCGE"
+    },
+    {
+      "id": "seq_12",
+      "sequence": "VADIWETFLPHHNQECEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_13",
+      "sequence": "VYDIRATFLPHHNQNCEGRGWKMWIGQ"
+    },
+    {
+      "id": "seq_14",
+      "sequence": "VYDIWETFLPHHNQNCEGRGPKMWIGQ"
+    },
+    {
+      "id": "seq_15",
+      "sequence": "VYDIWEMFSPHHNQKCLGRNSKMICGY"
+    },
+    {
+      "id": "seq_16",
+      "sequence": "VYDIWETFLPHHNQNCEGRGWKMWIGQ"
+    },
+    {
+      "id": "seq_17",
+      "sequence": "VADIWETFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_18",
+      "sequence": "VYDIWETFLPEDYQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_19",
+      "sequence": "VYDCWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_20",
+      "sequence": "EYDIWETFLPHTNQRCELRGPKMWCGY"
+    },
+    {
+      "id": "seq_21",
+      "sequence": "VYDIWELFLPHHNQNCEGRGPKMWIGQ"
+    },
+    {
+      "id": "seq_22",
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKIHCVY"
+    },
+    {
+      "id": "seq_23",
+      "sequence": "VYLIWETFSPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_24",
+      "sequence": "VYRIDETFKPEHDKKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_25",
+      "sequence": "MHYTSWTFQFSDCTHHTYMYRYHYMD"
+    },
+    {
+      "id": "seq_26",
+      "sequence": "VYRCWETFKPHHNKKCIGRGPKMWCGY"
+    },
+    {
+      "id": "seq_27",
+      "sequence": "VYDIWGTFQPHHNQKCEGRGPKGGCGY"
+    },
+    {
+      "id": "seq_28",
+      "sequence": "MHYTSFWFAFSDCTHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_29",
+      "sequence": "VYDIWETFLPRHNVNCEGRGPKMWIGQ"
+    },
+    {
+      "id": "seq_30",
+      "sequence": "EHYTSPWFQFSDCYHHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_31",
+      "sequence": "MHYTSCWFKFSDCYHHTYTYRYVHMD"
+    },
+    {
+      "id": "seq_32",
+      "sequence": "VSRIWETFVPHHNKNCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_33",
+      "sequence": "VYDIWEMFSVHHNQKCEGRGPIMICGY"
+    },
+    {
+      "id": "seq_34",
+      "sequence": "VYDIWEMFSPHHNQKPEGQGPKMICGY"
+    },
+    {
+      "id": "seq_35",
+      "sequence": "YHYTSFWFQFSDCYHHLYTYRYHHMD"
+    },
+    {
+      "id": "seq_36",
+      "sequence": "VIDIWETFYPHHNQNCEGRGPKMWIPQ"
+    },
+    {
+      "id": "seq_37",
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_38",
+      "sequence": "VADIQITFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_39",
+      "sequence": "MHYTSFWFQFSDCYHYTYTSRVHYMD"
+    },
+    {
+      "id": "seq_40",
+      "sequence": "VYDIWEMFSPHHNQKCEGRGPKMICGY"
+    },
+    {
+      "id": "seq_41",
+      "sequence": "VYRIWETFKPHHNKKFEGRGPKDWCVY"
+    },
+    {
+      "id": "seq_42",
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKGWCGY"
+    },
+    {
+      "id": "seq_43",
+      "sequence": "VADIWETFDQHHNQKCEGPAPKMWCGR"
+    },
+    {
+      "id": "seq_44",
+      "sequence": "VYDIWETFLPHTNQKCELRGPKMWCGY"
+    },
+    {
+      "id": "seq_45",
+      "sequence": "VYDIWKMFLPHTNQKCELRVPKMWCGY"
+    },
+    {
+      "id": "seq_46",
+      "sequence": "SFYTSFWFQFSDCYHHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_47",
+      "sequence": "VYDIWEMFSPHHNQKCEGRGPKMICGR"
+    },
+    {
+      "id": "seq_48",
+      "sequence": "VYRIWETFKPHHNKKCPGRGPKMWCGY"
+    },
+    {
+      "id": "seq_49",
+      "sequence": "MHYTSFWFQFSDCYHYRYTYRYHYMD"
+    },
+    {
+      "id": "seq_50",
+      "sequence": "SYDIWRTFLPHTNQKCELRGPKMWCGY"
+    },
+    {
+      "id": "seq_51",
+      "sequence": "MHYQSFWFQFSDATHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_52",
+      "sequence": "MHYTSFWFQFSDCTHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_53",
+      "sequence": "VYDIWETFLPHHNQKCPGRGPKGWCGY"
+    },
+    {
+      "id": "seq_54",
+      "sequence": "MHYTCFWFQFSGCWHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_55",
+      "sequence": "MHYTSFWFQFSICYHYTYTYRYHMMQ"
+    },
+    {
+      "id": "seq_56",
+      "sequence": "VYDIWETFLPHHWQNCEGRGPKMWIDQ"
+    },
+    {
+      "id": "seq_57",
+      "sequence": "VYDIWHTFLPHHNQKCEYRGPKMWCGT"
+    },
+    {
+      "id": "seq_58",
+      "sequence": "VADDWETFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_59",
+      "sequence": "VYDIWETFLNHHFQNCEGRGPKMWIGQ"
+    },
+    {
+      "id": "seq_60",
+      "sequence": "VYDIWETFLPHDNQNCEGRGPKMWIGA"
+    },
+    {
+      "id": "seq_61",
+      "sequence": "VADIWETHLPYHNQKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_62",
+      "sequence": "VYDIWETFLPHTNQFCEDRGTKMWCGY"
+    },
+    {
+      "id": "seq_63",
+      "sequence": "VYCYWLTFLPHHNQKCEGRGPKGWCGY"
+    },
+    {
+      "id": "seq_64",
+      "sequence": "VYKIWETFLPHTNQKCDLDGPKMWCGY"
+    },
+    {
+      "id": "seq_65",
+      "sequence": "VYDIWETFLIHHNQDCEGRLPKGWCGY"
+    },
+    {
+      "id": "seq_66",
+      "sequence": "MHYTSFWFQFSDCTHHTPTYYYHYMD"
+    },
+    {
+      "id": "seq_67",
+      "sequence": "MHYTSFWFQFQDCYHTTYTYRYHHMD"
+    },
+    {
+      "id": "seq_68",
+      "sequence": "VYDIWEAFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_69",
+      "sequence": "MHYTSFWFQFSDCYHHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_70",
+      "sequence": "VYRIWETFKPHHNKKCEGRGPKMGCGY"
+    },
+    {
+      "id": "seq_71",
+      "sequence": "VYDIWETFLPHHNQKCDGRGPKMWCGY"
+    },
+    {
+      "id": "seq_72",
+      "sequence": "VYDIWETFLPHHNQNCEGQGPKMWIGQ"
+    },
+    {
+      "id": "seq_73",
+      "sequence": "KADIWETFLPEHNQKCENPGPKMWCGR"
+    },
+    {
+      "id": "seq_74",
+      "sequence": "VYDIWEFFLPHHNQFCTGRGPKGWCGY"
+    },
+    {
+      "id": "seq_75",
+      "sequence": "VYDIWETFLPVHNQKCVGRGPKMWCGY"
+    },
+    {
+      "id": "seq_76",
+      "sequence": "VADIWETFLPHHNKKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_77",
+      "sequence": "MHYTSFWFQFSDCYHWTYTYRMHYMD"
+    },
+    {
+      "id": "seq_78",
+      "sequence": "MHYTSFWFQFSDCYPHTYTYRYHHMD"
+    },
+    {
+      "id": "seq_79",
+      "sequence": "MHYTSFWFQFSDCYHYTYTYRYHYMD"
+    },
+    {
+      "id": "seq_80",
+      "sequence": "VYRIWETNKVHHNKKCEGRGPCMWCGY"
+    },
+    {
+      "id": "seq_81",
+      "sequence": "VAQIWETCLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_82",
+      "sequence": "MHYTSFWFQFCDCTHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_83",
+      "sequence": "VWDIWETFLPHHNQKQEGPGPKMWCGR"
+    },
+    {
+      "id": "seq_84",
+      "sequence": "VYDVWETFLPHHKQKCEGRGPKGWCGY"
+    },
+    {
+      "id": "seq_85",
+      "sequence": "MHYTDFWFQISDCYHYTYTYRYHYMD"
+    },
+    {
+      "id": "seq_86",
+      "sequence": "VYDIWETFLPQTNQKCELRGPKMWQGY"
+    },
+    {
+      "id": "seq_87",
+      "sequence": "NHYTMFWFQFSDCYHYTYTYRYHYMD"
+    },
+    {
+      "id": "seq_88",
+      "sequence": "VYRIWETFKPHHNKKCEGRGTKMWCGY"
+    },
+    {
+      "id": "seq_89",
+      "sequence": "MHYYSFWFQFSDCYKHTYTYRYIHMD"
+    },
+    {
+      "id": "seq_90",
+      "sequence": "MHYTSFWFQFSDCTHITYTYRYHYMD"
+    },
+    {
+      "id": "seq_91",
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKTWCGY"
+    },
+    {
+      "id": "seq_92",
+      "sequence": "MHYTSFQFQFSDCYHYTYMYCYHYMD"
+    },
+    {
+      "id": "seq_93",
+      "sequence": "VYDIWEMFSPHANQKCEGRGPKMICGY"
+    },
+    {
+      "id": "seq_94",
+      "sequence": "VYDIWETFLPHTNQRCELRGPKMWCGY"
+    },
+    {
+      "id": "seq_95",
+      "sequence": "MHYTSFWFQFGNCTHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_96",
+      "sequence": "VYDIWEMFSPHHNQKCEGRGPKSICGY"
+    },
+    {
+      "id": "seq_97",
+      "sequence": "VYRIWETFKPHHNKHCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_98",
+      "sequence": "MHYTSFWFCFSDCYHYWYTYRYHYMD"
+    },
+    {
+      "id": "seq_99",
+      "sequence": "VYDIWEMFSPHHNQKCEGRNPKMICGY"
+    }
+  ]
+}

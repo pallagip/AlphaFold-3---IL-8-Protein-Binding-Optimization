@@ -1,0 +1,590 @@
+{
+  "seq_0": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_0",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_0/ranked_0.pdb",
+    "sequence": "VYRE"
+  },
+  "seq_1": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_1",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_1/ranked_0.pdb",
+    "sequence": "AWPR"
+  },
+  "seq_2": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_2",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_2/ranked_0.pdb",
+    "sequence": "MHYTSFQFQFSDCYHHYFTYRYHYMD"
+  },
+  "seq_3": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_3",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_3/ranked_0.pdb",
+    "sequence": "DYIE"
+  },
+  "seq_4": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_4",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_4/ranked_0.pdb",
+    "sequence": "ASSK"
+  },
+  "seq_5": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_5",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_5/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHHNQKKEGRGPKMWCGY"
+  },
+  "seq_6": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_6",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_6/ranked_0.pdb",
+    "sequence": "VYRIWETFKPHHNKKCEGRGPKMWCGY"
+  },
+  "seq_7": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_7",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_7/ranked_0.pdb",
+    "sequence": "SHRE"
+  },
+  "seq_8": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_8",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_8/ranked_0.pdb",
+    "sequence": "FYGR"
+  },
+  "seq_9": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_9",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_9/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHHNQNCEGRGPKMWIGQ"
+  },
+  "seq_10": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_10",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_10/ranked_0.pdb",
+    "sequence": "WFKE"
+  },
+  "seq_11": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_11",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_11/ranked_0.pdb",
+    "sequence": "VADIWETFLPHHNQKCEGPGPKMWCGR"
+  },
+  "seq_12": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_12",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_12/ranked_0.pdb",
+    "sequence": "VPNY"
+  },
+  "seq_13": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_13",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_13/ranked_0.pdb",
+    "sequence": "AYAK"
+  },
+  "seq_14": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_14",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_14/ranked_0.pdb",
+    "sequence": "APVT"
+  },
+  "seq_15": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_15",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_15/ranked_0.pdb",
+    "sequence": "WHKA"
+  },
+  "seq_16": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_16",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_16/ranked_0.pdb",
+    "sequence": "ANMK"
+  },
+  "seq_17": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_17",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_17/ranked_0.pdb",
+    "sequence": "LYLY"
+  },
+  "seq_18": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_18",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_18/ranked_0.pdb",
+    "sequence": "DYGF"
+  },
+  "seq_19": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_19",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_19/ranked_0.pdb",
+    "sequence": "HYGQ"
+  },
+  "seq_20": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_20",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_20/ranked_0.pdb",
+    "sequence": "MHYTSFWFQFSDCYHHTYTYRYHYMD"
+  },
+  "seq_21": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_21",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_21/ranked_0.pdb",
+    "sequence": "AYKY"
+  },
+  "seq_22": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_22",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_22/ranked_0.pdb",
+    "sequence": "MHRTSFWFQFSDCYHHTYTYRYHYMW"
+  },
+  "seq_23": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_23",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_23/ranked_0.pdb",
+    "sequence": "KMGD"
+  },
+  "seq_24": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_24",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_24/ranked_0.pdb",
+    "sequence": "ANNK"
+  },
+  "seq_25": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_25",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_25/ranked_0.pdb",
+    "sequence": "LYYS"
+  },
+  "seq_26": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_26",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_26/ranked_0.pdb",
+    "sequence": "CYSG"
+  },
+  "seq_27": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_27",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_27/ranked_0.pdb",
+    "sequence": "FYGQ"
+  },
+  "seq_28": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_28",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_28/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHHNQKCEGRGPKMWCGY"
+  },
+  "seq_29": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_29",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_29/ranked_0.pdb",
+    "sequence": "VHQA"
+  },
+  "seq_30": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_30",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_30/ranked_0.pdb",
+    "sequence": "WHKN"
+  },
+  "seq_31": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_31",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_31/ranked_0.pdb",
+    "sequence": "YYYS"
+  },
+  "seq_32": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_32",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_32/ranked_0.pdb",
+    "sequence": "WYEE"
+  },
+  "seq_33": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_33",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_33/ranked_0.pdb",
+    "sequence": "LYRE"
+  },
+  "seq_34": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_34",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_34/ranked_0.pdb",
+    "sequence": "IYQM"
+  },
+  "seq_35": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_35",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_35/ranked_0.pdb",
+    "sequence": "LYGS"
+  },
+  "seq_36": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_36",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_36/ranked_0.pdb",
+    "sequence": "NYWM"
+  },
+  "seq_37": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_37",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_37/ranked_0.pdb",
+    "sequence": "WYKE"
+  },
+  "seq_38": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_38",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_38/ranked_0.pdb",
+    "sequence": "VYDIWEMFSPHHNQKCEGRGPKMICGY"
+  },
+  "seq_39": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_39",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_39/ranked_0.pdb",
+    "sequence": "HYDE"
+  },
+  "seq_40": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_40",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_40/ranked_0.pdb",
+    "sequence": "VYSD"
+  },
+  "seq_41": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_41",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_41/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHHNQKCEGRGPKGWCGY"
+  },
+  "seq_42": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_42",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_42/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHTNQKCELRGPKMWCGY"
+  },
+  "seq_43": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_43",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_43/ranked_0.pdb",
+    "sequence": "DLGL"
+  },
+  "seq_44": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_44",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_44/ranked_0.pdb",
+    "sequence": "CWFV"
+  },
+  "seq_45": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_45",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_45/ranked_0.pdb",
+    "sequence": "TYSG"
+  },
+  "seq_46": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_46",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_46/ranked_0.pdb",
+    "sequence": "KDRG"
+  },
+  "seq_47": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_47",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_47/ranked_0.pdb",
+    "sequence": "AWHT"
+  },
+  "seq_48": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_48",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_48/ranked_0.pdb",
+    "sequence": "MHYTSRWFPFSDCYHHTYTYRYHYMD"
+  },
+  "seq_49": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_49",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_49/ranked_0.pdb",
+    "sequence": "MHYTSFWFQFSDCTHHTYTYRYHYMD"
+  },
+  "seq_50": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_50",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_50/ranked_0.pdb",
+    "sequence": "ANYY"
+  },
+  "seq_51": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_51",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_51/ranked_0.pdb",
+    "sequence": "DYGE"
+  },
+  "seq_52": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_52",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_52/ranked_0.pdb",
+    "sequence": "MGGT"
+  },
+  "seq_53": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_53",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_53/ranked_0.pdb",
+    "sequence": "FYGD"
+  },
+  "seq_54": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_54",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_54/ranked_0.pdb",
+    "sequence": "DHIV"
+  },
+  "seq_55": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_55",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_55/ranked_0.pdb",
+    "sequence": "HMVE"
+  },
+  "seq_56": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_56",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_56/ranked_0.pdb",
+    "sequence": "VYDMWETFLPHHNQKCEGRGPKMWCGY"
+  },
+  "seq_57": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_57",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_57/ranked_0.pdb",
+    "sequence": "GYGE"
+  },
+  "seq_58": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_58",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_58/ranked_0.pdb",
+    "sequence": "SEWQ"
+  },
+  "seq_59": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_59",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_59/ranked_0.pdb",
+    "sequence": "TSGS"
+  },
+  "seq_60": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_60",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_60/ranked_0.pdb",
+    "sequence": "VQEN"
+  },
+  "seq_61": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_61",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_61/ranked_0.pdb",
+    "sequence": "SYGE"
+  },
+  "seq_62": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_62",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_62/ranked_0.pdb",
+    "sequence": "LRHS"
+  },
+  "seq_63": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_63",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_63/ranked_0.pdb",
+    "sequence": "APMN"
+  },
+  "seq_64": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_64",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_64/ranked_0.pdb",
+    "sequence": "ANRY"
+  },
+  "seq_65": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_65",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_65/ranked_0.pdb",
+    "sequence": "MHTTSFWFQFSDCYHHTYEYDYHYMD"
+  },
+  "seq_66": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_66",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_66/ranked_0.pdb",
+    "sequence": "VCSG"
+  },
+  "seq_67": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_67",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_67/ranked_0.pdb",
+    "sequence": "GVSG"
+  },
+  "seq_68": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_68",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_68/ranked_0.pdb",
+    "sequence": "AWWV"
+  },
+  "seq_69": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_69",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_69/ranked_0.pdb",
+    "sequence": "HYMP"
+  },
+  "seq_70": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_70",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_70/ranked_0.pdb",
+    "sequence": "FYYS"
+  },
+  "seq_71": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_71",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_71/ranked_0.pdb",
+    "sequence": "QLKP"
+  },
+  "seq_72": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_72",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_72/ranked_0.pdb",
+    "sequence": "TYGE"
+  },
+  "seq_73": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_73",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_73/ranked_0.pdb",
+    "sequence": "AWFY"
+  },
+  "seq_74": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_74",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_74/ranked_0.pdb",
+    "sequence": "PYQL"
+  },
+  "seq_75": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_75",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_75/ranked_0.pdb",
+    "sequence": "LYNM"
+  },
+  "seq_76": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_76",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_76/ranked_0.pdb",
+    "sequence": "FAMD"
+  },
+  "seq_77": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_77",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_77/ranked_0.pdb",
+    "sequence": "MHYTSFWFQFSDCYHHTYTYRYHHMD"
+  },
+  "seq_78": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_78",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_78/ranked_0.pdb",
+    "sequence": "SIKE"
+  },
+  "seq_79": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_79",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_79/ranked_0.pdb",
+    "sequence": "DYGS"
+  },
+  "seq_80": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_80",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_80/ranked_0.pdb",
+    "sequence": "VYDIWETFLPHHNQKCEGRGPKNWCGY"
+  },
+  "seq_81": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_81",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_81/ranked_0.pdb",
+    "sequence": "WHKE"
+  },
+  "seq_82": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_82",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_82/ranked_0.pdb",
+    "sequence": "RNKG"
+  },
+  "seq_83": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_83",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_83/ranked_0.pdb",
+    "sequence": "LRIE"
+  },
+  "seq_84": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_84",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_84/ranked_0.pdb",
+    "sequence": "ATWV"
+  },
+  "seq_85": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_85",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_85/ranked_0.pdb",
+    "sequence": "AMMA"
+  },
+  "seq_86": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_86",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_86/ranked_0.pdb",
+    "sequence": "MHYTSFWFQFSDCYHYTYTYRYHYMD"
+  },
+  "seq_87": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_87",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_87/ranked_0.pdb",
+    "sequence": "VKRE"
+  },
+  "seq_88": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_88",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_88/ranked_0.pdb",
+    "sequence": "ANMS"
+  },
+  "seq_89": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_89",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_89/ranked_0.pdb",
+    "sequence": "MHYTSFPFQFSDCYHHFYTYRYHYDD"
+  },
+  "seq_90": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_90",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_90/ranked_0.pdb",
+    "sequence": "QYTG"
+  },
+  "seq_91": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_91",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_91/ranked_0.pdb",
+    "sequence": "ASWV"
+  },
+  "seq_92": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_92",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_92/ranked_0.pdb",
+    "sequence": "MYCD"
+  },
+  "seq_93": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_93",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_93/ranked_0.pdb",
+    "sequence": "VIRE"
+  },
+  "seq_94": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_94",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_94/ranked_0.pdb",
+    "sequence": "VYSG"
+  },
+  "seq_95": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_95",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_95/ranked_0.pdb",
+    "sequence": "QCME"
+  },
+  "seq_96": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_96",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_96/ranked_0.pdb",
+    "sequence": "MHYTSFWFMFSDCYHHRYTYRYHYMD"
+  },
+  "seq_97": {
+    "status": "success",
+    "output_dir": "optimization_results/iteration_2/alphafold_results/seq_97",
+    "pdb_path": "optimization_results/iteration_2/alphafold_results/seq_97/ranked_0.pdb",
+    "sequence": "YWWA"
+  }
+}

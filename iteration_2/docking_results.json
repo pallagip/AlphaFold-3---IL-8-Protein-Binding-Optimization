@@ -1,0 +1,494 @@
+{
+  "results": [
+    {
+      "seq_id": "seq_86",
+      "binding_energy": -10.555181981050028,
+      "sequence": "MHYTSFWFQFSDCYHYTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_38",
+      "binding_energy": -10.542555820572488,
+      "sequence": "VYDIWEMFSPHHNQKCEGRGPKMICGY"
+    },
+    {
+      "seq_id": "seq_77",
+      "binding_energy": -10.498038098493616,
+      "sequence": "MHYTSFWFQFSDCYHHTYTYRYHHMD"
+    },
+    {
+      "seq_id": "seq_28",
+      "binding_energy": -10.35715106905974,
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_6",
+      "binding_energy": -10.326078829148734,
+      "sequence": "VYRIWETFKPHHNKKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_9",
+      "binding_energy": -10.095122929452707,
+      "sequence": "VYDIWETFLPHHNQNCEGRGPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_41",
+      "binding_energy": -9.825296961878482,
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKGWCGY"
+    },
+    {
+      "seq_id": "seq_11",
+      "binding_energy": -9.470154615262059,
+      "sequence": "VADIWETFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_42",
+      "binding_energy": -9.340191110395015,
+      "sequence": "VYDIWETFLPHTNQKCELRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_49",
+      "binding_energy": -9.04114733229347,
+      "sequence": "MHYTSFWFQFSDCTHHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_7",
+      "binding_energy": -8.06606661839323,
+      "sequence": "SHRE"
+    },
+    {
+      "seq_id": "seq_5",
+      "binding_energy": -8.018232672451266,
+      "sequence": "VYDIWETFLPHHNQKKEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_61",
+      "binding_energy": -7.9468854735201795,
+      "sequence": "SYGE"
+    },
+    {
+      "seq_id": "seq_53",
+      "binding_energy": -7.900658849131921,
+      "sequence": "FYGD"
+    },
+    {
+      "seq_id": "seq_34",
+      "binding_energy": -7.841419993388793,
+      "sequence": "IYQM"
+    },
+    {
+      "seq_id": "seq_56",
+      "binding_energy": -7.784327953901306,
+      "sequence": "VYDMWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_16",
+      "binding_energy": -7.725853203279724,
+      "sequence": "ANMK"
+    },
+    {
+      "seq_id": "seq_4",
+      "binding_energy": -7.59470608744447,
+      "sequence": "ASSK"
+    },
+    {
+      "seq_id": "seq_33",
+      "binding_energy": -7.416448015850907,
+      "sequence": "LYRE"
+    },
+    {
+      "seq_id": "seq_43",
+      "binding_energy": -7.382776028700911,
+      "sequence": "DLGL"
+    },
+    {
+      "seq_id": "seq_58",
+      "binding_energy": -7.354550890303609,
+      "sequence": "SEWQ"
+    },
+    {
+      "seq_id": "seq_19",
+      "binding_energy": -7.3197466872841614,
+      "sequence": "HYGQ"
+    },
+    {
+      "seq_id": "seq_83",
+      "binding_energy": -7.297204536137124,
+      "sequence": "LRIE"
+    },
+    {
+      "seq_id": "seq_47",
+      "binding_energy": -7.157438728151629,
+      "sequence": "AWHT"
+    },
+    {
+      "seq_id": "seq_48",
+      "binding_energy": -7.157150951944954,
+      "sequence": "MHYTSRWFPFSDCYHHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_20",
+      "binding_energy": -7.143745201583287,
+      "sequence": "MHYTSFWFQFSDCYHHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_44",
+      "binding_energy": -7.111836844928243,
+      "sequence": "CWFV"
+    },
+    {
+      "seq_id": "seq_89",
+      "binding_energy": -7.105963202175553,
+      "sequence": "MHYTSFPFQFSDCYHHFYTYRYHYDD"
+    },
+    {
+      "seq_id": "seq_46",
+      "binding_energy": -7.020665161638388,
+      "sequence": "KDRG"
+    },
+    {
+      "seq_id": "seq_55",
+      "binding_energy": -7.020259054756724,
+      "sequence": "HMVE"
+    },
+    {
+      "seq_id": "seq_75",
+      "binding_energy": -7.014852817493751,
+      "sequence": "LYNM"
+    },
+    {
+      "seq_id": "seq_90",
+      "binding_energy": -6.876701408829377,
+      "sequence": "QYTG"
+    },
+    {
+      "seq_id": "seq_32",
+      "binding_energy": -6.863760608356875,
+      "sequence": "WYEE"
+    },
+    {
+      "seq_id": "seq_21",
+      "binding_energy": -6.862744684190856,
+      "sequence": "AYKY"
+    },
+    {
+      "seq_id": "seq_23",
+      "binding_energy": -6.85687197633336,
+      "sequence": "KMGD"
+    },
+    {
+      "seq_id": "seq_13",
+      "binding_energy": -6.794927806356848,
+      "sequence": "AYAK"
+    },
+    {
+      "seq_id": "seq_78",
+      "binding_energy": -6.763633709048166,
+      "sequence": "SIKE"
+    },
+    {
+      "seq_id": "seq_80",
+      "binding_energy": -6.751098229737787,
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKNWCGY"
+    },
+    {
+      "seq_id": "seq_68",
+      "binding_energy": -6.725051947541749,
+      "sequence": "AWWV"
+    },
+    {
+      "seq_id": "seq_71",
+      "binding_energy": -6.679114955659355,
+      "sequence": "QLKP"
+    },
+    {
+      "seq_id": "seq_92",
+      "binding_energy": -6.541755510164741,
+      "sequence": "MYCD"
+    },
+    {
+      "seq_id": "seq_25",
+      "binding_energy": -6.49501780832226,
+      "sequence": "LYYS"
+    },
+    {
+      "seq_id": "seq_10",
+      "binding_energy": -6.438958454281054,
+      "sequence": "WFKE"
+    },
+    {
+      "seq_id": "seq_96",
+      "binding_energy": -6.398421156519171,
+      "sequence": "MHYTSFWFMFSDCYHHRYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_29",
+      "binding_energy": -6.343022203275502,
+      "sequence": "VHQA"
+    },
+    {
+      "seq_id": "seq_85",
+      "binding_energy": -6.148472303985809,
+      "sequence": "AMMA"
+    },
+    {
+      "seq_id": "seq_72",
+      "binding_energy": -6.132384833557948,
+      "sequence": "TYGE"
+    },
+    {
+      "seq_id": "seq_22",
+      "binding_energy": -6.123907138326846,
+      "sequence": "MHRTSFWFQFSDCYHHTYTYRYHYMW"
+    },
+    {
+      "seq_id": "seq_73",
+      "binding_energy": -6.108074301809323,
+      "sequence": "AWFY"
+    },
+    {
+      "seq_id": "seq_87",
+      "binding_energy": -6.090284910491638,
+      "sequence": "VKRE"
+    },
+    {
+      "seq_id": "seq_59",
+      "binding_energy": -5.966581846068573,
+      "sequence": "TSGS"
+    },
+    {
+      "seq_id": "seq_52",
+      "binding_energy": -5.948860856309976,
+      "sequence": "MGGT"
+    },
+    {
+      "seq_id": "seq_67",
+      "binding_energy": -5.933697064384287,
+      "sequence": "GVSG"
+    },
+    {
+      "seq_id": "seq_88",
+      "binding_energy": -5.927378662272401,
+      "sequence": "ANMS"
+    },
+    {
+      "seq_id": "seq_81",
+      "binding_energy": -5.910169134146292,
+      "sequence": "WHKE"
+    },
+    {
+      "seq_id": "seq_66",
+      "binding_energy": -5.847114095310114,
+      "sequence": "VCSG"
+    },
+    {
+      "seq_id": "seq_35",
+      "binding_energy": -5.691123389439935,
+      "sequence": "LYGS"
+    },
+    {
+      "seq_id": "seq_63",
+      "binding_energy": -5.679712647740278,
+      "sequence": "APMN"
+    },
+    {
+      "seq_id": "seq_12",
+      "binding_energy": -5.6363261726641225,
+      "sequence": "VPNY"
+    },
+    {
+      "seq_id": "seq_57",
+      "binding_energy": -5.599564025165095,
+      "sequence": "GYGE"
+    },
+    {
+      "seq_id": "seq_51",
+      "binding_energy": -5.324210688283485,
+      "sequence": "DYGE"
+    },
+    {
+      "seq_id": "seq_1",
+      "binding_energy": -5.320019360138891,
+      "sequence": "AWPR"
+    },
+    {
+      "seq_id": "seq_36",
+      "binding_energy": -5.233461129917212,
+      "sequence": "NYWM"
+    },
+    {
+      "seq_id": "seq_40",
+      "binding_energy": -5.225189142251299,
+      "sequence": "VYSD"
+    },
+    {
+      "seq_id": "seq_91",
+      "binding_energy": -5.02626828643049,
+      "sequence": "ASWV"
+    },
+    {
+      "seq_id": "seq_79",
+      "binding_energy": -5.017903409071831,
+      "sequence": "DYGS"
+    },
+    {
+      "seq_id": "seq_18",
+      "binding_energy": -4.972460550048388,
+      "sequence": "DYGF"
+    },
+    {
+      "seq_id": "seq_2",
+      "binding_energy": -4.9429140728771825,
+      "sequence": "MHYTSFQFQFSDCYHHYFTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_60",
+      "binding_energy": -4.862514245982465,
+      "sequence": "VQEN"
+    },
+    {
+      "seq_id": "seq_0",
+      "binding_energy": -4.844961817112967,
+      "sequence": "VYRE"
+    },
+    {
+      "seq_id": "seq_70",
+      "binding_energy": -4.718958051372187,
+      "sequence": "FYYS"
+    },
+    {
+      "seq_id": "seq_65",
+      "binding_energy": -4.686264775685154,
+      "sequence": "MHTTSFWFQFSDCYHHTYEYDYHYMD"
+    },
+    {
+      "seq_id": "seq_97",
+      "binding_energy": -4.570597371464457,
+      "sequence": "YWWA"
+    },
+    {
+      "seq_id": "seq_27",
+      "binding_energy": -4.503895917786631,
+      "sequence": "FYGQ"
+    },
+    {
+      "seq_id": "seq_74",
+      "binding_energy": -4.457131525845224,
+      "sequence": "PYQL"
+    },
+    {
+      "seq_id": "seq_15",
+      "binding_energy": -4.277101994640584,
+      "sequence": "WHKA"
+    },
+    {
+      "seq_id": "seq_64",
+      "binding_energy": -4.255219258208254,
+      "sequence": "ANRY"
+    },
+    {
+      "seq_id": "seq_54",
+      "binding_energy": -4.246439584973812,
+      "sequence": "DHIV"
+    },
+    {
+      "seq_id": "seq_30",
+      "binding_energy": -4.220633653714794,
+      "sequence": "WHKN"
+    },
+    {
+      "seq_id": "seq_93",
+      "binding_energy": -4.0682993267087,
+      "sequence": "VIRE"
+    },
+    {
+      "seq_id": "seq_8",
+      "binding_energy": -4.012676728408745,
+      "sequence": "FYGR"
+    },
+    {
+      "seq_id": "seq_95",
+      "binding_energy": -3.9680851455940838,
+      "sequence": "QCME"
+    },
+    {
+      "seq_id": "seq_69",
+      "binding_energy": -3.8020599318662676,
+      "sequence": "HYMP"
+    },
+    {
+      "seq_id": "seq_3",
+      "binding_energy": -3.7178634695907053,
+      "sequence": "DYIE"
+    },
+    {
+      "seq_id": "seq_94",
+      "binding_energy": -3.669106815632432,
+      "sequence": "VYSG"
+    },
+    {
+      "seq_id": "seq_24",
+      "binding_energy": -3.651762430551858,
+      "sequence": "ANNK"
+    },
+    {
+      "seq_id": "seq_17",
+      "binding_energy": -3.5731279818622905,
+      "sequence": "LYLY"
+    },
+    {
+      "seq_id": "seq_37",
+      "binding_energy": -3.424945908760659,
+      "sequence": "WYKE"
+    },
+    {
+      "seq_id": "seq_62",
+      "binding_energy": -3.358694832216843,
+      "sequence": "LRHS"
+    },
+    {
+      "seq_id": "seq_14",
+      "binding_energy": -3.2720054377457055,
+      "sequence": "APVT"
+    },
+    {
+      "seq_id": "seq_82",
+      "binding_energy": -3.205258665654009,
+      "sequence": "RNKG"
+    },
+    {
+      "seq_id": "seq_50",
+      "binding_energy": -3.00819328419972,
+      "sequence": "ANYY"
+    },
+    {
+      "seq_id": "seq_31",
+      "binding_energy": -2.911845790344115,
+      "sequence": "YYYS"
+    },
+    {
+      "seq_id": "seq_39",
+      "binding_energy": -2.9005855035442476,
+      "sequence": "HYDE"
+    },
+    {
+      "seq_id": "seq_26",
+      "binding_energy": -2.6195847280835443,
+      "sequence": "CYSG"
+    },
+    {
+      "seq_id": "seq_84",
+      "binding_energy": -2.5663111754725243,
+      "sequence": "ATWV"
+    },
+    {
+      "seq_id": "seq_45",
+      "binding_energy": -2.544378692524033,
+      "sequence": "TYSG"
+    },
+    {
+      "seq_id": "seq_76",
+      "binding_energy": -2.5343467243821918,
+      "sequence": "FAMD"
+    }
+  ]
+}

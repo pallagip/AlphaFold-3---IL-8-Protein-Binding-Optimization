@@ -1,0 +1,489 @@
+{
+  "results": [
+    {
+      "seq_id": "seq_87",
+      "binding_energy": -10.520887745969375,
+      "sequence": "MHYTSFWFQFSDCYHHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_88",
+      "binding_energy": -8.417183533014455,
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_45",
+      "binding_energy": -8.38578265983984,
+      "sequence": "LYGS"
+    },
+    {
+      "seq_id": "seq_76",
+      "binding_energy": -8.325833863261611,
+      "sequence": "WHKE"
+    },
+    {
+      "seq_id": "seq_55",
+      "binding_energy": -8.294992355254836,
+      "sequence": "DYGE"
+    },
+    {
+      "seq_id": "seq_64",
+      "binding_energy": -8.254900725700432,
+      "sequence": "AWWV"
+    },
+    {
+      "seq_id": "seq_19",
+      "binding_energy": -8.227247761003387,
+      "sequence": "ANMK"
+    },
+    {
+      "seq_id": "seq_84",
+      "binding_energy": -8.116347864342902,
+      "sequence": "VYSG"
+    },
+    {
+      "seq_id": "seq_57",
+      "binding_energy": -8.032846401017395,
+      "sequence": "FYGD"
+    },
+    {
+      "seq_id": "seq_1",
+      "binding_energy": -7.894056553102667,
+      "sequence": "VYRE"
+    },
+    {
+      "seq_id": "seq_95",
+      "binding_energy": -7.829754035252039,
+      "sequence": "QVDLWAPECRAGDWGSGWQLMCQYP"
+    },
+    {
+      "seq_id": "seq_65",
+      "binding_energy": -7.7629582978803615,
+      "sequence": "PPGC"
+    },
+    {
+      "seq_id": "seq_60",
+      "binding_energy": -7.7154061923618755,
+      "sequence": "AHTE"
+    },
+    {
+      "seq_id": "seq_52",
+      "binding_energy": -7.701117951768547,
+      "sequence": "RYRE"
+    },
+    {
+      "seq_id": "seq_62",
+      "binding_energy": -7.653315487090028,
+      "sequence": "CLGE"
+    },
+    {
+      "seq_id": "seq_81",
+      "binding_energy": -7.627988884487669,
+      "sequence": "AYGS"
+    },
+    {
+      "seq_id": "seq_40",
+      "binding_energy": -7.566722293032112,
+      "sequence": "VYYE"
+    },
+    {
+      "seq_id": "seq_91",
+      "binding_energy": -7.538804141215698,
+      "sequence": "FAEIFGILAQWHN"
+    },
+    {
+      "seq_id": "seq_33",
+      "binding_energy": -7.455168743238505,
+      "sequence": "AYGP"
+    },
+    {
+      "seq_id": "seq_63",
+      "binding_energy": -7.432953144806839,
+      "sequence": "AYCG"
+    },
+    {
+      "seq_id": "seq_59",
+      "binding_energy": -7.367391748042932,
+      "sequence": "RYGF"
+    },
+    {
+      "seq_id": "seq_86",
+      "binding_energy": -7.267544680621182,
+      "sequence": "DKGC"
+    },
+    {
+      "seq_id": "seq_78",
+      "binding_energy": -7.238011632674109,
+      "sequence": "CYWQ"
+    },
+    {
+      "seq_id": "seq_75",
+      "binding_energy": -7.221907950670769,
+      "sequence": "VYGP"
+    },
+    {
+      "seq_id": "seq_30",
+      "binding_energy": -7.212892477236201,
+      "sequence": "LYIE"
+    },
+    {
+      "seq_id": "seq_16",
+      "binding_energy": -7.16092942910983,
+      "sequence": "SYDE"
+    },
+    {
+      "seq_id": "seq_2",
+      "binding_energy": -7.126972163427398,
+      "sequence": "AEQP"
+    },
+    {
+      "seq_id": "seq_46",
+      "binding_energy": -7.063745022046693,
+      "sequence": "MYRN"
+    },
+    {
+      "seq_id": "seq_49",
+      "binding_energy": -6.940441084032667,
+      "sequence": "GYGC"
+    },
+    {
+      "seq_id": "seq_27",
+      "binding_energy": -6.889711040858426,
+      "sequence": "DGGK"
+    },
+    {
+      "seq_id": "seq_18",
+      "binding_energy": -6.875880259480361,
+      "sequence": "MTGH"
+    },
+    {
+      "seq_id": "seq_94",
+      "binding_energy": -6.756633391509718,
+      "sequence": "PTEYAWMRNVGFVTYQENS"
+    },
+    {
+      "seq_id": "seq_47",
+      "binding_energy": -6.694284876806452,
+      "sequence": "ARGA"
+    },
+    {
+      "seq_id": "seq_90",
+      "binding_energy": -6.6562168924646254,
+      "sequence": "GFTRAETKIGKLAILG"
+    },
+    {
+      "seq_id": "seq_61",
+      "binding_energy": -6.289599291918499,
+      "sequence": "ACGF"
+    },
+    {
+      "seq_id": "seq_0",
+      "binding_energy": -6.19679975080121,
+      "sequence": "AYGL"
+    },
+    {
+      "seq_id": "seq_11",
+      "binding_energy": -6.19154846335014,
+      "sequence": "CYLC"
+    },
+    {
+      "seq_id": "seq_68",
+      "binding_energy": -6.1417340695898766,
+      "sequence": "SFGE"
+    },
+    {
+      "seq_id": "seq_42",
+      "binding_energy": -6.139003522495467,
+      "sequence": "AAGE"
+    },
+    {
+      "seq_id": "seq_41",
+      "binding_energy": -6.116115297368794,
+      "sequence": "ALHV"
+    },
+    {
+      "seq_id": "seq_56",
+      "binding_energy": -6.109850938228811,
+      "sequence": "AYSE"
+    },
+    {
+      "seq_id": "seq_85",
+      "binding_energy": -6.109834576652898,
+      "sequence": "PYCE"
+    },
+    {
+      "seq_id": "seq_32",
+      "binding_energy": -6.051493188297581,
+      "sequence": "AYGV"
+    },
+    {
+      "seq_id": "seq_80",
+      "binding_energy": -5.985417492322305,
+      "sequence": "QLGI"
+    },
+    {
+      "seq_id": "seq_83",
+      "binding_energy": -5.945840652001085,
+      "sequence": "YYGE"
+    },
+    {
+      "seq_id": "seq_70",
+      "binding_energy": -5.940278598094123,
+      "sequence": "AYDA"
+    },
+    {
+      "seq_id": "seq_92",
+      "binding_energy": -5.92692832853322,
+      "sequence": "RHLETNTEDNPD"
+    },
+    {
+      "seq_id": "seq_34",
+      "binding_energy": -5.807583997311069,
+      "sequence": "TYCE"
+    },
+    {
+      "seq_id": "seq_28",
+      "binding_energy": -5.7045952164383795,
+      "sequence": "AYGG"
+    },
+    {
+      "seq_id": "seq_4",
+      "binding_energy": -5.692706588247004,
+      "sequence": "GYPN"
+    },
+    {
+      "seq_id": "seq_53",
+      "binding_energy": -5.601068530377407,
+      "sequence": "GAGG"
+    },
+    {
+      "seq_id": "seq_20",
+      "binding_energy": -5.585171344421348,
+      "sequence": "AYFE"
+    },
+    {
+      "seq_id": "seq_71",
+      "binding_energy": -5.534717986647886,
+      "sequence": "CMGE"
+    },
+    {
+      "seq_id": "seq_73",
+      "binding_energy": -5.511881350854553,
+      "sequence": "EYWS"
+    },
+    {
+      "seq_id": "seq_39",
+      "binding_energy": -5.492258583763473,
+      "sequence": "KMFE"
+    },
+    {
+      "seq_id": "seq_44",
+      "binding_energy": -5.429124946421167,
+      "sequence": "ADVA"
+    },
+    {
+      "seq_id": "seq_5",
+      "binding_energy": -5.415525517681656,
+      "sequence": "KYGE"
+    },
+    {
+      "seq_id": "seq_93",
+      "binding_energy": -5.391495531146095,
+      "sequence": "VGFDCYAIDSVNERTYCAWN"
+    },
+    {
+      "seq_id": "seq_29",
+      "binding_energy": -5.302272011667412,
+      "sequence": "ADGE"
+    },
+    {
+      "seq_id": "seq_14",
+      "binding_energy": -5.274914192209419,
+      "sequence": "AYIN"
+    },
+    {
+      "seq_id": "seq_67",
+      "binding_energy": -5.25232204086598,
+      "sequence": "RHGQ"
+    },
+    {
+      "seq_id": "seq_43",
+      "binding_energy": -5.2487254111802,
+      "sequence": "DYVG"
+    },
+    {
+      "seq_id": "seq_38",
+      "binding_energy": -5.238766970733021,
+      "sequence": "IYGE"
+    },
+    {
+      "seq_id": "seq_17",
+      "binding_energy": -4.92662009120642,
+      "sequence": "ACGE"
+    },
+    {
+      "seq_id": "seq_96",
+      "binding_energy": -4.873508562999832,
+      "sequence": "TQPDACNLRDKQRMS"
+    },
+    {
+      "seq_id": "seq_21",
+      "binding_energy": -4.857262358026148,
+      "sequence": "YYGG"
+    },
+    {
+      "seq_id": "seq_12",
+      "binding_energy": -4.805199244588139,
+      "sequence": "HYGP"
+    },
+    {
+      "seq_id": "seq_7",
+      "binding_energy": -4.698506217164866,
+      "sequence": "AYGW"
+    },
+    {
+      "seq_id": "seq_72",
+      "binding_energy": -4.646209692428627,
+      "sequence": "RYGE"
+    },
+    {
+      "seq_id": "seq_3",
+      "binding_energy": -4.461209655733369,
+      "sequence": "NYAE"
+    },
+    {
+      "seq_id": "seq_69",
+      "binding_energy": -4.4522055705178945,
+      "sequence": "QYGE"
+    },
+    {
+      "seq_id": "seq_54",
+      "binding_energy": -4.26377216329913,
+      "sequence": "HRYE"
+    },
+    {
+      "seq_id": "seq_51",
+      "binding_energy": -4.196120790090212,
+      "sequence": "AYDT"
+    },
+    {
+      "seq_id": "seq_25",
+      "binding_energy": -4.193272352975513,
+      "sequence": "AVGS"
+    },
+    {
+      "seq_id": "seq_89",
+      "binding_energy": -4.170038450800283,
+      "sequence": "NQWCSPMT"
+    },
+    {
+      "seq_id": "seq_31",
+      "binding_energy": -4.164497275182121,
+      "sequence": "DQSE"
+    },
+    {
+      "seq_id": "seq_66",
+      "binding_energy": -4.107204512542533,
+      "sequence": "DYWE"
+    },
+    {
+      "seq_id": "seq_24",
+      "binding_energy": -4.0442435009143365,
+      "sequence": "DYAT"
+    },
+    {
+      "seq_id": "seq_36",
+      "binding_energy": -3.7848332858924536,
+      "sequence": "SYGP"
+    },
+    {
+      "seq_id": "seq_77",
+      "binding_energy": -3.5851752953658567,
+      "sequence": "ALYF"
+    },
+    {
+      "seq_id": "seq_35",
+      "binding_energy": -3.5674967685258556,
+      "sequence": "ACLD"
+    },
+    {
+      "seq_id": "seq_37",
+      "binding_energy": -3.5335705969929414,
+      "sequence": "AFRC"
+    },
+    {
+      "seq_id": "seq_10",
+      "binding_energy": -3.51626868418185,
+      "sequence": "AYHL"
+    },
+    {
+      "seq_id": "seq_79",
+      "binding_energy": -3.4227141202270293,
+      "sequence": "ANGH"
+    },
+    {
+      "seq_id": "seq_58",
+      "binding_energy": -3.3168422731255376,
+      "sequence": "PYHQ"
+    },
+    {
+      "seq_id": "seq_6",
+      "binding_energy": -3.2787904353708246,
+      "sequence": "WYGN"
+    },
+    {
+      "seq_id": "seq_22",
+      "binding_energy": -3.2677322277300256,
+      "sequence": "KYGA"
+    },
+    {
+      "seq_id": "seq_8",
+      "binding_energy": -3.16512853810086,
+      "sequence": "PRGE"
+    },
+    {
+      "seq_id": "seq_15",
+      "binding_energy": -3.0732662235762955,
+      "sequence": "AYGN"
+    },
+    {
+      "seq_id": "seq_48",
+      "binding_energy": -3.0088802977718387,
+      "sequence": "TCKE"
+    },
+    {
+      "seq_id": "seq_26",
+      "binding_energy": -2.952021473595533,
+      "sequence": "ACGN"
+    },
+    {
+      "seq_id": "seq_13",
+      "binding_energy": -2.842037610859359,
+      "sequence": "ALNE"
+    },
+    {
+      "seq_id": "seq_9",
+      "binding_energy": -2.8009234894830337,
+      "sequence": "MYGE"
+    },
+    {
+      "seq_id": "seq_50",
+      "binding_energy": -2.740731411216001,
+      "sequence": "AYGE"
+    },
+    {
+      "seq_id": "seq_82",
+      "binding_energy": -2.596224022609281,
+      "sequence": "GNKE"
+    },
+    {
+      "seq_id": "seq_74",
+      "binding_energy": -2.5595543377639327,
+      "sequence": "AHGC"
+    },
+    {
+      "seq_id": "seq_23",
+      "binding_energy": -2.4633707863832566,
+      "sequence": "WYFQ"
+    }
+  ]
+}

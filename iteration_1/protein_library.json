@@ -1,0 +1,392 @@
+{
+  "sequences": [
+    {
+      "id": "seq_0",
+      "sequence": "AYGL"
+    },
+    {
+      "id": "seq_1",
+      "sequence": "VYRE"
+    },
+    {
+      "id": "seq_2",
+      "sequence": "AEQP"
+    },
+    {
+      "id": "seq_3",
+      "sequence": "NYAE"
+    },
+    {
+      "id": "seq_4",
+      "sequence": "GYPN"
+    },
+    {
+      "id": "seq_5",
+      "sequence": "KYGE"
+    },
+    {
+      "id": "seq_6",
+      "sequence": "WYGN"
+    },
+    {
+      "id": "seq_7",
+      "sequence": "AYGW"
+    },
+    {
+      "id": "seq_8",
+      "sequence": "PRGE"
+    },
+    {
+      "id": "seq_9",
+      "sequence": "MYGE"
+    },
+    {
+      "id": "seq_10",
+      "sequence": "AYHL"
+    },
+    {
+      "id": "seq_11",
+      "sequence": "CYLC"
+    },
+    {
+      "id": "seq_12",
+      "sequence": "HYGP"
+    },
+    {
+      "id": "seq_13",
+      "sequence": "ALNE"
+    },
+    {
+      "id": "seq_14",
+      "sequence": "AYIN"
+    },
+    {
+      "id": "seq_15",
+      "sequence": "AYGN"
+    },
+    {
+      "id": "seq_16",
+      "sequence": "SYDE"
+    },
+    {
+      "id": "seq_17",
+      "sequence": "ACGE"
+    },
+    {
+      "id": "seq_18",
+      "sequence": "MTGH"
+    },
+    {
+      "id": "seq_19",
+      "sequence": "ANMK"
+    },
+    {
+      "id": "seq_20",
+      "sequence": "AYFE"
+    },
+    {
+      "id": "seq_21",
+      "sequence": "YYGG"
+    },
+    {
+      "id": "seq_22",
+      "sequence": "KYGA"
+    },
+    {
+      "id": "seq_23",
+      "sequence": "WYFQ"
+    },
+    {
+      "id": "seq_24",
+      "sequence": "DYAT"
+    },
+    {
+      "id": "seq_25",
+      "sequence": "AVGS"
+    },
+    {
+      "id": "seq_26",
+      "sequence": "ACGN"
+    },
+    {
+      "id": "seq_27",
+      "sequence": "DGGK"
+    },
+    {
+      "id": "seq_28",
+      "sequence": "AYGG"
+    },
+    {
+      "id": "seq_29",
+      "sequence": "ADGE"
+    },
+    {
+      "id": "seq_30",
+      "sequence": "LYIE"
+    },
+    {
+      "id": "seq_31",
+      "sequence": "DQSE"
+    },
+    {
+      "id": "seq_32",
+      "sequence": "AYGV"
+    },
+    {
+      "id": "seq_33",
+      "sequence": "AYGP"
+    },
+    {
+      "id": "seq_34",
+      "sequence": "TYCE"
+    },
+    {
+      "id": "seq_35",
+      "sequence": "ACLD"
+    },
+    {
+      "id": "seq_36",
+      "sequence": "SYGP"
+    },
+    {
+      "id": "seq_37",
+      "sequence": "AFRC"
+    },
+    {
+      "id": "seq_38",
+      "sequence": "IYGE"
+    },
+    {
+      "id": "seq_39",
+      "sequence": "KMFE"
+    },
+    {
+      "id": "seq_40",
+      "sequence": "VYYE"
+    },
+    {
+      "id": "seq_41",
+      "sequence": "ALHV"
+    },
+    {
+      "id": "seq_42",
+      "sequence": "AAGE"
+    },
+    {
+      "id": "seq_43",
+      "sequence": "DYVG"
+    },
+    {
+      "id": "seq_44",
+      "sequence": "ADVA"
+    },
+    {
+      "id": "seq_45",
+      "sequence": "LYGS"
+    },
+    {
+      "id": "seq_46",
+      "sequence": "MYRN"
+    },
+    {
+      "id": "seq_47",
+      "sequence": "ARGA"
+    },
+    {
+      "id": "seq_48",
+      "sequence": "TCKE"
+    },
+    {
+      "id": "seq_49",
+      "sequence": "GYGC"
+    },
+    {
+      "id": "seq_50",
+      "sequence": "AYGE"
+    },
+    {
+      "id": "seq_51",
+      "sequence": "AYDT"
+    },
+    {
+      "id": "seq_52",
+      "sequence": "RYRE"
+    },
+    {
+      "id": "seq_53",
+      "sequence": "GAGG"
+    },
+    {
+      "id": "seq_54",
+      "sequence": "HRYE"
+    },
+    {
+      "id": "seq_55",
+      "sequence": "DYGE"
+    },
+    {
+      "id": "seq_56",
+      "sequence": "AYSE"
+    },
+    {
+      "id": "seq_57",
+      "sequence": "FYGD"
+    },
+    {
+      "id": "seq_58",
+      "sequence": "PYHQ"
+    },
+    {
+      "id": "seq_59",
+      "sequence": "RYGF"
+    },
+    {
+      "id": "seq_60",
+      "sequence": "AHTE"
+    },
+    {
+      "id": "seq_61",
+      "sequence": "ACGF"
+    },
+    {
+      "id": "seq_62",
+      "sequence": "CLGE"
+    },
+    {
+      "id": "seq_63",
+      "sequence": "AYCG"
+    },
+    {
+      "id": "seq_64",
+      "sequence": "AWWV"
+    },
+    {
+      "id": "seq_65",
+      "sequence": "PPGC"
+    },
+    {
+      "id": "seq_66",
+      "sequence": "DYWE"
+    },
+    {
+      "id": "seq_67",
+      "sequence": "RHGQ"
+    },
+    {
+      "id": "seq_68",
+      "sequence": "SFGE"
+    },
+    {
+      "id": "seq_69",
+      "sequence": "QYGE"
+    },
+    {
+      "id": "seq_70",
+      "sequence": "AYDA"
+    },
+    {
+      "id": "seq_71",
+      "sequence": "CMGE"
+    },
+    {
+      "id": "seq_72",
+      "sequence": "RYGE"
+    },
+    {
+      "id": "seq_73",
+      "sequence": "EYWS"
+    },
+    {
+      "id": "seq_74",
+      "sequence": "AHGC"
+    },
+    {
+      "id": "seq_75",
+      "sequence": "VYGP"
+    },
+    {
+      "id": "seq_76",
+      "sequence": "WHKE"
+    },
+    {
+      "id": "seq_77",
+      "sequence": "ALYF"
+    },
+    {
+      "id": "seq_78",
+      "sequence": "CYWQ"
+    },
+    {
+      "id": "seq_79",
+      "sequence": "ANGH"
+    },
+    {
+      "id": "seq_80",
+      "sequence": "QLGI"
+    },
+    {
+      "id": "seq_81",
+      "sequence": "AYGS"
+    },
+    {
+      "id": "seq_82",
+      "sequence": "GNKE"
+    },
+    {
+      "id": "seq_83",
+      "sequence": "YYGE"
+    },
+    {
+      "id": "seq_84",
+      "sequence": "VYSG"
+    },
+    {
+      "id": "seq_85",
+      "sequence": "PYCE"
+    },
+    {
+      "id": "seq_86",
+      "sequence": "DKGC"
+    },
+    {
+      "id": "seq_87",
+      "sequence": "MHYTSFWFQFSDCYHHTYTYRYHYMD"
+    },
+    {
+      "id": "seq_88",
+      "sequence": "VYDIWETFLPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "id": "seq_89",
+      "sequence": "NQWCSPMT"
+    },
+    {
+      "id": "seq_90",
+      "sequence": "GFTRAETKIGKLAILG"
+    },
+    {
+      "id": "seq_91",
+      "sequence": "FAEIFGILAQWHN"
+    },
+    {
+      "id": "seq_92",
+      "sequence": "RHLETNTEDNPD"
+    },
+    {
+      "id": "seq_93",
+      "sequence": "VGFDCYAIDSVNERTYCAWN"
+    },
+    {
+      "id": "seq_94",
+      "sequence": "PTEYAWMRNVGFVTYQENS"
+    },
+    {
+      "id": "seq_95",
+      "sequence": "QVDLWAPECRAGDWGSGWQLMCQYP"
+    },
+    {
+      "id": "seq_96",
+      "sequence": "TQPDACNLRDKQRMS"
+    }
+  ]
+}

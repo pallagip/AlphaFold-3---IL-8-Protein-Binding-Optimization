@@ -1,0 +1,504 @@
+{
+  "results": [
+    {
+      "seq_id": "seq_37",
+      "binding_energy": -10.651454936943168,
+      "sequence": "VYDIWEDFLLHHNQKCVGRGPKGWQGE"
+    },
+    {
+      "seq_id": "seq_10",
+      "binding_energy": -10.648809234008628,
+      "sequence": "VYDIWETFLPHHNQKCVGRGPKGWCGE"
+    },
+    {
+      "seq_id": "seq_3",
+      "binding_energy": -10.54707703051946,
+      "sequence": "VIDIWETFYPHHNQNLEGRGFKMWIPQ"
+    },
+    {
+      "seq_id": "seq_19",
+      "binding_energy": -10.436129519515045,
+      "sequence": "MHYTSWTFQFSDCTHHVYMYRWHKMD"
+    },
+    {
+      "seq_id": "seq_28",
+      "binding_energy": -10.402346485934773,
+      "sequence": "VIDIWETFYPHHNQNCEGRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_25",
+      "binding_energy": -10.376779494823555,
+      "sequence": "MHYTSFWFQFRDIRHHTYTYRYHHMD"
+    },
+    {
+      "seq_id": "seq_72",
+      "binding_energy": -10.152023764344914,
+      "sequence": "VYLIWETFSPHHNQKCEGFGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_5",
+      "binding_energy": -10.149633841018048,
+      "sequence": "VIDIWEGFYPHHNQNCEGRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_84",
+      "binding_energy": -10.110845674951033,
+      "sequence": "MHYTSFWFQFSFCTHHLYTYRYHYMA"
+    },
+    {
+      "seq_id": "seq_65",
+      "binding_energy": -10.082123902218886,
+      "sequence": "VIDIWETFYPHHIQNWERRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_4",
+      "binding_energy": -10.040254000680404,
+      "sequence": "VGDICETFLPHHNQECEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_7",
+      "binding_energy": -9.978905951634092,
+      "sequence": "VADIWETFLPEHNQECEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_92",
+      "binding_energy": -9.912365307864953,
+      "sequence": "MHYTSWEFQFSDCTHHTYMYRYFYMD"
+    },
+    {
+      "seq_id": "seq_36",
+      "binding_energy": -9.869606136571608,
+      "sequence": "HYAIWETFLPHHNQNCEGRGPKIWIGQ"
+    },
+    {
+      "seq_id": "seq_26",
+      "binding_energy": -9.860707161237709,
+      "sequence": "GYDIWETFLPHHNQKCVTYGPKGWCGE"
+    },
+    {
+      "seq_id": "seq_50",
+      "binding_energy": -9.851769228476522,
+      "sequence": "VLDIWETFLTHHNQECEGPGPKMWKGR"
+    },
+    {
+      "seq_id": "seq_94",
+      "binding_energy": -9.848756873971183,
+      "sequence": "MHYTMFWFQFSDCTHHTTTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_48",
+      "binding_energy": -9.80620542737796,
+      "sequence": "VADIQITFLPHHNQKCEGPGPEMWCGR"
+    },
+    {
+      "seq_id": "seq_56",
+      "binding_energy": -9.673086036160335,
+      "sequence": "MHYTSWTFQFSDCVHHTMMYRYHYMD"
+    },
+    {
+      "seq_id": "seq_81",
+      "binding_energy": -9.664267440085084,
+      "sequence": "VADIWFTFLPHHNQECEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_9",
+      "binding_energy": -9.651556089949976,
+      "sequence": "VIDIAESFYPHHNQNCEGQGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_78",
+      "binding_energy": -9.634718203439489,
+      "sequence": "VADIWETFLPHHNKKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_40",
+      "binding_energy": -9.605240135214078,
+      "sequence": "MHYTSWTFQLSDDTHHTYMYRAHYMD"
+    },
+    {
+      "seq_id": "seq_24",
+      "binding_energy": -9.526527756955023,
+      "sequence": "VADIQITFLPHHNQKWEGPGPKNWCGR"
+    },
+    {
+      "seq_id": "seq_43",
+      "binding_energy": -9.526107497072479,
+      "sequence": "MHWTSFWFQFSDCRHHTYDYRYPHMD"
+    },
+    {
+      "seq_id": "seq_83",
+      "binding_energy": -9.52416981411592,
+      "sequence": "MHYTEWTFQFSDCTTHTYMYRYHYMD"
+    },
+    {
+      "seq_id": "seq_1",
+      "binding_energy": -9.520383060696322,
+      "sequence": "VADIQITFLPHHWQKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_15",
+      "binding_energy": -9.510009384004752,
+      "sequence": "VYLIWELFSPHHNQKCFGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_86",
+      "binding_energy": -9.495904652254726,
+      "sequence": "VIDIWETFYPHHNQNCEGIGPSMGIPQ"
+    },
+    {
+      "seq_id": "seq_61",
+      "binding_energy": -9.296727515462939,
+      "sequence": "MHYGSFWFQFSDCRHHTDTYRVHHMD"
+    },
+    {
+      "seq_id": "seq_82",
+      "binding_energy": -9.29304976337188,
+      "sequence": "VADIEETFLPHHNKKCGGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_2",
+      "binding_energy": -9.28629482409773,
+      "sequence": "VADGWETFLPHHNKKCECPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_69",
+      "binding_energy": -9.215404691191878,
+      "sequence": "VADIQITFLIHHNQKCKGRGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_55",
+      "binding_energy": -9.215250480316993,
+      "sequence": "VYDIWETFLPGQMQNCEGRGPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_44",
+      "binding_energy": -9.043577940235508,
+      "sequence": "VYDIWETFLPQHNQKCVGRGPKGWCGE"
+    },
+    {
+      "seq_id": "seq_75",
+      "binding_energy": -8.962774505970886,
+      "sequence": "VADIWETFLPHHNQECEGPGSKMWCGR"
+    },
+    {
+      "seq_id": "seq_41",
+      "binding_energy": -8.947626851980967,
+      "sequence": "MHYTSFWFQFSDCRHHTYTYRYHPMD"
+    },
+    {
+      "seq_id": "seq_45",
+      "binding_energy": -8.794993232749665,
+      "sequence": "VYDIWEWFLPHHNQNCEGRGPYMWIGQ"
+    },
+    {
+      "seq_id": "seq_16",
+      "binding_energy": -8.551090631586419,
+      "sequence": "VYDIWESFMPHHNRNCEGRGPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_58",
+      "binding_energy": -8.480283393260365,
+      "sequence": "VADIWETFHPHHNKKCEGPGPKMWCGK"
+    },
+    {
+      "seq_id": "seq_57",
+      "binding_energy": -8.467699025967288,
+      "sequence": "VYDIWETFLPHHNQNCEGRGPLMWIGQ"
+    },
+    {
+      "seq_id": "seq_74",
+      "binding_energy": -8.347646850385077,
+      "sequence": "VADCQITFLPHHNQKCYGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_99",
+      "binding_energy": -8.336998551538962,
+      "sequence": "MHYTSFWFQFSDCTHHTYTYRYHYRD"
+    },
+    {
+      "seq_id": "seq_59",
+      "binding_energy": -8.153995610480957,
+      "sequence": "VYDIWETFLPDHNQKCVGRGPKGWCGE"
+    },
+    {
+      "seq_id": "seq_68",
+      "binding_energy": -7.858933957794597,
+      "sequence": "MHYTSFWRQFSDCTHHTYTYRYHYMY"
+    },
+    {
+      "seq_id": "seq_30",
+      "binding_energy": -7.845128461922465,
+      "sequence": "VADIWETFLPHHNQECEGPGPTMWCGR"
+    },
+    {
+      "seq_id": "seq_42",
+      "binding_energy": -7.710167260544651,
+      "sequence": "MHYTSFWFQFSDCRHHTYTYQYHYID"
+    },
+    {
+      "seq_id": "seq_71",
+      "binding_energy": -7.690174025350311,
+      "sequence": "MHYTSFWFQSSDCTHHTYTYRYHCMD"
+    },
+    {
+      "seq_id": "seq_76",
+      "binding_energy": -7.68084350581444,
+      "sequence": "VADIWETFLPHHNQECEGPLPKMWCGR"
+    },
+    {
+      "seq_id": "seq_21",
+      "binding_energy": -7.647594386739675,
+      "sequence": "MHYTSWTFQFSDCTHHTYMYRYHYMD"
+    },
+    {
+      "seq_id": "seq_27",
+      "binding_energy": -7.570083409818505,
+      "sequence": "MHHTSFWFQFSDCTHHTYTRRYHYMD"
+    },
+    {
+      "seq_id": "seq_85",
+      "binding_energy": -7.510776001739051,
+      "sequence": "VYLIWETFSPHHLQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_54",
+      "binding_energy": -7.448107562551612,
+      "sequence": "VYLIWETFRPHHNQKCEGRGPKMWCIY"
+    },
+    {
+      "seq_id": "seq_29",
+      "binding_energy": -7.410730583363771,
+      "sequence": "VYLIGETFSPHHNQKSEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_62",
+      "binding_energy": -7.391365155766877,
+      "sequence": "AYDIWNTLLPHHNQKCVGRGPKGWCGE"
+    },
+    {
+      "seq_id": "seq_73",
+      "binding_energy": -7.387692439110991,
+      "sequence": "MHGTCWTFQFSDCTHHTYMYRYPYMD"
+    },
+    {
+      "seq_id": "seq_35",
+      "binding_energy": -7.331813001935876,
+      "sequence": "VADIQITFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_63",
+      "binding_energy": -7.326080060438853,
+      "sequence": "VIDIWETFYAHHNQNCEGRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_91",
+      "binding_energy": -7.320438323388259,
+      "sequence": "VADIWEVFLPHHNKYCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_96",
+      "binding_energy": -7.265127929658225,
+      "sequence": "VYLIWCTFSPHHNQKCEGRQPKMWCDY"
+    },
+    {
+      "seq_id": "seq_70",
+      "binding_energy": -7.24734100781442,
+      "sequence": "VADIQITFLPHHNQKCKGPGPKMICGR"
+    },
+    {
+      "seq_id": "seq_67",
+      "binding_energy": -7.184100180168808,
+      "sequence": "VIDIWETFYPHWNQNCEGRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_18",
+      "binding_energy": -7.131570047867031,
+      "sequence": "MHYTSMTFQFSDCTHHKYMYRYHYMD"
+    },
+    {
+      "seq_id": "seq_66",
+      "binding_energy": -7.088643232544046,
+      "sequence": "MHYTSFWFWHSDCTHHTYTYRYHTMD"
+    },
+    {
+      "seq_id": "seq_60",
+      "binding_energy": -7.084558824289315,
+      "sequence": "VYDIWETFLPHHNQKCVGRGPSNWCGE"
+    },
+    {
+      "seq_id": "seq_87",
+      "binding_energy": -7.075805851129471,
+      "sequence": "PYLIWETFSPHHNLKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_23",
+      "binding_energy": -7.015552752268408,
+      "sequence": "MHYTSFWFQFSPCRHHTYTYRYHHWD"
+    },
+    {
+      "seq_id": "seq_77",
+      "binding_energy": -7.001020312706758,
+      "sequence": "MHYTSYWFQFSDCTHHTYTYRYHCMD"
+    },
+    {
+      "seq_id": "seq_8",
+      "binding_energy": -6.864310962391839,
+      "sequence": "VADIQIAGLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_90",
+      "binding_energy": -6.858023077976756,
+      "sequence": "VYGIDETFSPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_80",
+      "binding_energy": -6.784122291119888,
+      "sequence": "MHYTSFWFQFSDCRHHWYTYRNHHMD"
+    },
+    {
+      "seq_id": "seq_0",
+      "binding_energy": -6.739731239419537,
+      "sequence": "VADIWETKLWHHNKKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_46",
+      "binding_energy": -6.7136928709234684,
+      "sequence": "MHRTSSTFQFSDCIHHTYMYRYHYMD"
+    },
+    {
+      "seq_id": "seq_38",
+      "binding_energy": -6.69041522851119,
+      "sequence": "VYDIWYTFLPHHNQNCEGRGPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_39",
+      "binding_energy": -6.648279721251301,
+      "sequence": "QHYTSFWFQFLDCTQHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_95",
+      "binding_energy": -6.637989035522229,
+      "sequence": "VYDIWETFLPHHNQNCEGAMPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_49",
+      "binding_energy": -6.370849511885861,
+      "sequence": "VADIWETFLPHHNKKCEGPGPDMWCGR"
+    },
+    {
+      "seq_id": "seq_34",
+      "binding_energy": -6.3641251144749695,
+      "sequence": "VNDIWETFLPHHNKKCEGPLKKMWCGR"
+    },
+    {
+      "seq_id": "seq_11",
+      "binding_energy": -6.324703975751853,
+      "sequence": "VADIWETFLPHHNQECEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_32",
+      "binding_energy": -6.287441624023086,
+      "sequence": "VPLIWETFSPHHNQKCEGRGPKMWCNR"
+    },
+    {
+      "seq_id": "seq_14",
+      "binding_energy": -6.225828618730588,
+      "sequence": "VADIWETFLPHHNQECEGPGPKMWCHR"
+    },
+    {
+      "seq_id": "seq_22",
+      "binding_energy": -6.161732124223696,
+      "sequence": "VYDIWETFYPHHNQNCEGRGPKMWIWQ"
+    },
+    {
+      "seq_id": "seq_97",
+      "binding_energy": -6.120174478027541,
+      "sequence": "VIDIWETFYPHHNLNSEGRGPKMWIPQ"
+    },
+    {
+      "seq_id": "seq_93",
+      "binding_energy": -6.050292940707073,
+      "sequence": "VADIWETFLNHHNQECEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_64",
+      "binding_energy": -5.97280889975043,
+      "sequence": "VGDIWETFLPMHNQKCVGRGPKSWCGE"
+    },
+    {
+      "seq_id": "seq_51",
+      "binding_energy": -5.970544618430389,
+      "sequence": "VIDIWETFYPHHNQNCEGRGPKEWIPQ"
+    },
+    {
+      "seq_id": "seq_52",
+      "binding_energy": -5.7195832707822545,
+      "sequence": "VADIWETFLPHHNKKCEVPMPKMWCGR"
+    },
+    {
+      "seq_id": "seq_17",
+      "binding_energy": -5.697296378519919,
+      "sequence": "MHYTSFWFQFSDCRHHTYCYRYHHMD"
+    },
+    {
+      "seq_id": "seq_79",
+      "binding_energy": -5.688176670735696,
+      "sequence": "YADIWETFLPHHNKKCEGPGPKMWEGC"
+    },
+    {
+      "seq_id": "seq_88",
+      "binding_energy": -5.550510526312143,
+      "sequence": "MHYTSFWFQFSDCRHHAYTYEYHHMD"
+    },
+    {
+      "seq_id": "seq_20",
+      "binding_energy": -5.494972502921647,
+      "sequence": "VYLIWETFSPHHNQKCEGRGPKMWCGY"
+    },
+    {
+      "seq_id": "seq_53",
+      "binding_energy": -5.449532543008922,
+      "sequence": "MHYTSFWFQFSDCTHHTYTYRYHYMD"
+    },
+    {
+      "seq_id": "seq_47",
+      "binding_energy": -5.110098496596843,
+      "sequence": "MHYTSGTFQFSDCTHHTYMYVYHVMD"
+    },
+    {
+      "seq_id": "seq_89",
+      "binding_energy": -4.9970455539058305,
+      "sequence": "VYDIWETFLPHHNQKCVGRGPKGACGE"
+    },
+    {
+      "seq_id": "seq_31",
+      "binding_energy": -4.862769125906027,
+      "sequence": "VYDIWETFLPHHSQNGEGRGPKYWIGQ"
+    },
+    {
+      "seq_id": "seq_12",
+      "binding_energy": -4.835894733715295,
+      "sequence": "VYDIWETFLPHHNQNCEGRGPKMWIGQ"
+    },
+    {
+      "seq_id": "seq_6",
+      "binding_energy": -4.794025818181837,
+      "sequence": "MHYTSFWFQFSDCRHHTYTYRYHHMD"
+    },
+    {
+      "seq_id": "seq_13",
+      "binding_energy": -4.788876408002544,
+      "sequence": "VQDIQVTFLPHHNQKCEGPGPKMWCGR"
+    },
+    {
+      "seq_id": "seq_33",
+      "binding_energy": -4.7823742884162055,
+      "sequence": "VARIQGTFLPHHNQKCEGPGPKMWCCR"
+    },
+    {
+      "seq_id": "seq_98",
+      "binding_energy": -4.74457676339573,
+      "sequence": "VYDPWETFLEHHNQKCVGRGQKGWCGE"
+    }
+  ]
+}
