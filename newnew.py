@@ -1,9 +1,12 @@
 import os
-import sys
 import subprocess
 import random
 import numpy as np
 import pandas as pd
+
+import os
+import sys
+# Verify import
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
@@ -35,19 +38,31 @@ class Config:
     
     # AlphaFold installation location (JAX-based).
     # Adjust to where alphafold is installed in your environment:
-    ALPHAFOLD_PATH = "/home/c_ppkbm/.local/lib/python3.11/site-packages/alphafold"
+    ALPHAFOLD_PATH = "/home/c_ppkbm/project/alphafold"
+
+
 
 def setup_alphafold_import():
-    """Set up imports for JAX-based AlphaFold"""
-    if not os.path.exists(Config.ALPHAFOLD_PATH):
-        print(f"Error: The specified AlphaFold path '{Config.ALPHAFOLD_PATH}' does not exist.")
-        sys.exit(1)
+    """Set up imports for JAX-based AlphaFold in Singularity container"""
+    # Get absolute paths
+    alphafold_root = os.path.abspath(Config.ALPHAFOLD_PATH)
     
-    # Remove any tensorflow-related modifications
-    alphafold_parent = os.path.dirname(Config.ALPHAFOLD_PATH)
-    if alphafold_parent not in sys.path:
-        sys.path.insert(0, alphafold_parent)
+    # Verify package structure
+    required_init_files = [
+        os.path.join(alphafold_root, '__init__.py'),
+        os.path.join(alphafold_root, 'alphafold', '__init__.py'),
+        os.path.join(alphafold_root, 'alphafold', 'common', '__init__.py')
+    ]
     
+    for init_file in required_init_files:
+        if not os.path.exists(init_file):
+            raise FileNotFoundError(f"Missing required __init__.py file: {init_file}")
+    
+    # Add to path if not already present
+    if alphafold_root not in sys.path:
+        sys.path.insert(0, alphafold_root)
+    
+    # Try importing AlphaFold modules
     try:
         from alphafold.common import protein
         from alphafold.model import config
@@ -55,41 +70,29 @@ def setup_alphafold_import():
         from alphafold.data import pipeline
         from alphafold.data.tools import hhsearch
         from alphafold.data.parsers import fasta
-        
-        global AF_CONFIG
-        global AF_MODEL
-        global FEATURE_PROCESSOR
-        global PREDICTION_PROCESSOR
-        
-        AF_CONFIG = config.model_config("model_1")
-        AF_MODEL = model.Model(AF_CONFIG, direct_jax=True)
-        
-        FEATURE_PROCESSOR = pipeline.DataPipeline(
-            jackhmmer_binary_path="/usr/bin/jackhmmer",
-            hhblits_binary_path="/usr/bin/hhblits",
-            uniref90_database_path="/path/to/uniref90/uniref90.fasta",
-            mgnify_database_path="/path/to/mgnify/mgy_clusters_2018_12.fa",
-            pdb70_database_path="/path/to/pdb70/pdb70",
-            use_gpu=True
-        )
-        
-        PREDICTION_PROCESSOR = protein.PredictionProcessor(
-            model_runner=AF_MODEL,
-            config=AF_CONFIG
-        )
     except ImportError as e:
         print(f"Error importing AlphaFold modules: {e}")
-        sys.exit(1)
+        raise
+
+# Call the setup function
+setup_alphafold_import()
 
 def check_python_dependencies():
     """Check whether required Python modules are installed."""
-    required_modules = ["Bio", "numpy", "pandas", "jax", "alphafold"]
+    required_modules = ["Bio", "numpy", "pandas", "jax"]
     missing = []
     for mod in required_modules:
         try:
             __import__(mod)
         except ImportError:
             missing.append(mod)
+    
+    # Check alphafold package separately with relative import
+    try:
+        from alphafold.common import protein  # Try absolute import as fallback
+    except ImportError:
+        missing.append("alphafold")
+    
     if missing:
         raise ImportError(f"Missing required Python modules: {', '.join(missing)}")
 
@@ -132,7 +135,7 @@ def fold_structure(sequence: str, prefix: str, output_directory: str) -> str:
     pdb_path = os.path.join(output_directory, f"{prefix}.pdb")
     with open(pdb_path, "w") as f:
         f.write(protein.to_pdb(prediction['structure_module']['final_atom_positions'],
-                              prediction['structure_module']['final_atom_mask']))
+                               prediction['structure_module']['final_atom_mask']))
     
     return pdb_path
 
@@ -279,9 +282,9 @@ def calc_fep_energy(complex_pdb: str, pae_json: str) -> float:
         
         # Get heavy atoms for both chains
         chain_a_atoms = [(atom, atom.element) for atom in chain_a.get_atoms()
-                        if atom.element != 'H']
+                         if atom.element != 'H']
         chain_b_atoms = [(atom, atom.element) for atom in chain_b.get_atoms()
-                        if atom.element != 'H']
+                         if atom.element != 'H']
         
         # Process interactions between chains
         for atom_a, elem_a in chain_a_atoms:
@@ -297,8 +300,6 @@ def calc_fep_energy(complex_pdb: str, pae_json: str) -> float:
                     h_bond_energy += get_hydrogen_bond_energy(atom_a, atom_b)
                 
                 # Electrostatic energy
-                # Note: In a full MD simulation, we'd use partial charges
-                # Here we use a simplified model
                 if elem_a in ['N', 'O'] and elem_b in ['N', 'O']:
                     q1 = 0.5 if elem_a == 'N' else -0.5
                     q2 = 0.5 if elem_b == 'N' else -0.5
@@ -311,8 +312,9 @@ def calc_fep_energy(complex_pdb: str, pae_json: str) -> float:
             solvation_energy += SOLVATION_FACTOR * area
         
         # Combine all energy terms
-        total_energy = (contact_energy + electrostatic_energy +
-                       h_bond_energy + solvation_energy)
+        total_energy = (
+            contact_energy + electrostatic_energy + h_bond_energy + solvation_energy
+        )
         
         return total_energy
     
@@ -387,7 +389,6 @@ def main():
         # STEP 4: Keep top hits for next round
         # Use up to NUM_TOP_HITS from this round, sorted by energy
         best_of_round = round_scored_variants[:Config.NUM_TOP_HITS]
-        # The sequences alone (for the library generator next round)
         top_sequences = [seq for (_, seq, _) in best_of_round]
         
         # Print top hits of this round
@@ -411,3 +412,9 @@ def main():
         print(f"  {i:3d}. {name} | Energy = {energy:.2f} | Seq = {seq}")
     
     print("\n[INFO] Done! You can inspect the output PDBs and JSON files in the results directory.")
+
+# ------------------------------------------------------------------------------
+# Make sure main() is called when running this script:
+# ------------------------------------------------------------------------------
+if __name__ == "__main__":
+    main()
