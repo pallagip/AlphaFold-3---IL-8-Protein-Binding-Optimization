@@ -1,0 +1,211 @@
+#!/bin/bash
+#SBATCH -A c_ppkeitk
+#SBATCH --job-name=alphafold_pipeline
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:3
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=32
+#SBATCH --time=2-00:00:00
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
+
+# ================= Configuration =================
+# File paths and basic configuration
+RESULTS_DIR="./results"
+IL8_BASENAME="IL8"
+IL8_SEQ="MTSKLAVALLAAFLISAALCEGAVLPRSAKELRCQCIKTYSKPFHPKFIKELRVIESGPHCANTEIIVKLSDGRELCLDPKENWVQRVVEKFLKRAENS"
+NUM_ROUNDS=3
+NUM_VARIANTS_PER_ROUND=10
+NUM_TOP_HITS=10
+
+# System paths
+CONDA_ENV="parafold"
+PARALLEL_FOLD_PATH="/opt/software/packages/alphafold/ParallelFold"
+DB_PATH="/opt/software/packages/alphafold/alphafold-db"
+
+# ================= Setup Environment =================
+echo "[INFO] Setting up environment"
+source /opt/software/packages/miniconda/3/etc/profile.d/conda.sh
+conda activate ${CONDA_ENV}
+export LD_LIBRARY_PATH=${PARALLEL_FOLD_PATH}/nvidialib/:$LD_LIBRARY_PATH
+
+# Create results directory
+mkdir -p ${RESULTS_DIR}
+
+# ================= Helper Functions =================
+# Run monomer alignment
+run_monomer_alignment() {
+    local fasta_path=$1
+    local output_dir=$2
+    local variant_name=$3
+    
+    echo "[INFO] Running sequence alignment for: ${variant_name}"
+    cd ${PARALLEL_FOLD_PATH}
+    ./scripts/prep_features.sh ${fasta_path} ${output_dir} ${DB_PATH}
+    return $?
+}
+
+# Run monomer prediction
+run_monomer_prediction() {
+    local fasta_path=$1
+    local output_dir=$2
+    local variant_name=$3
+    
+    echo "[INFO] Running structure prediction for: ${variant_name}"
+    cd ${PARALLEL_FOLD_PATH}
+    ./run_alphafold.sh -d ${DB_PATH} -o ${output_dir} -p monomer_ptm -i ${fasta_path} -t 2022-01-01 -m model_1,model_2,model_3,model_4,model_5 -g
+    return $?
+}
+
+# Run multimer prediction
+run_multimer_prediction() {
+    local fasta_path=$1
+    local output_dir=$2
+    local variant_name=$3
+    
+    echo "[INFO] Running multimer prediction for: ${variant_name}"
+    cd ${PARALLEL_FOLD_PATH}
+    ./run_alphafold.sh -d ${DB_PATH} -o ${output_dir} -p multimer -i ${fasta_path} -t 2022-01-01 -m model_1_multimer_v3,model_2_multimer_v3,model_3_multimer_v3,model_4_multimer_v3,model_5_multimer_v3 -g
+    return $?
+}
+
+# Calculate binding energy (simplified)
+calc_binding_energy() {
+    local complex_pdb=$1
+    local variant_name=$2
+    
+    # This is a placeholder for your energy calculation
+    # In a real implementation, you would compute this from the PDB structure
+    # For demo purposes, we'll use a random value between -20 and 0
+    local energy=$(echo "scale=2; -20 + (${RANDOM} % 2000) / 100" | bc)
+    
+    echo ${energy}
+}
+
+# Generate a random mutation of the sequence
+mutate_sequence() {
+    local base_seq=$1
+    local amino_acids="ACDEFGHIKLMNPQRSTVWY"
+    local seq_chars=( $(echo $base_seq | grep -o .) )
+    local num_mutations=$((1 + RANDOM % 3))
+    
+    for ((i=0; i<num_mutations; i++)); do
+        local pos=$((RANDOM % ${#seq_chars[@]}))
+        local new_aa=${amino_acids:$((RANDOM % ${#amino_acids})):1}
+        seq_chars[$pos]=$new_aa
+    done
+    
+    echo $(printf "%s" "${seq_chars[@]}")
+}
+
+# ================= Main Pipeline =================
+echo "[INFO] Starting protein structure prediction pipeline"
+
+# Step 1: Fold IL-8 structure
+IL8_DIR="${RESULTS_DIR}/IL8_monomer"
+mkdir -p ${IL8_DIR}
+IL8_FASTA="${IL8_DIR}/${IL8_BASENAME}.fasta"
+
+echo ">${IL8_BASENAME}" > ${IL8_FASTA}
+echo "${IL8_SEQ}" >> ${IL8_FASTA}
+
+echo "[INFO] Folding IL-8 structure"
+run_monomer_alignment ${IL8_FASTA} ${IL8_DIR} ${IL8_BASENAME}
+run_monomer_prediction ${IL8_FASTA} ${IL8_DIR} ${IL8_BASENAME}
+
+IL8_PDB_PATH="${IL8_DIR}/ranked_0.pdb"
+if [ ! -f ${IL8_PDB_PATH} ]; then
+    echo "[ERROR] Failed to generate IL-8 structure"
+    exit 1
+fi
+
+# Initialize with a starting sequence
+# This should be a real protein sequence, not just the list of amino acids
+BASE_SEQUENCES=("ACDEFGHIKLMNPQRSTVWYVSRTFEDQMPYLIWKHNAG")  # Example sequence
+TOP_SEQUENCES=("${BASE_SEQUENCES[@]}")
+ALL_SCORED_VARIANTS=()
+
+# Run multiple rounds of variant generation and evaluation
+for ((round=0; round<${NUM_ROUNDS}; round++)); do
+    echo "[INFO] Starting Round $((round+1)) of ${NUM_ROUNDS}"
+    
+    ROUND_SCORED_VARIANTS=()
+    
+    # Generate variants for this round
+    for base_seq in "${TOP_SEQUENCES[@]}"; do
+        for ((i=0; i<${NUM_VARIANTS_PER_ROUND}; i++)); do
+            variant_name="var_r${round}_${i}"
+            variant_seq=$(mutate_sequence "${base_seq}")
+            
+            echo "[INFO] Processing variant: ${variant_name}"
+            
+            # Create variant directory and FASTA
+            variant_dir="${RESULTS_DIR}/${variant_name}_monomer"
+            mkdir -p ${variant_dir}
+            variant_fasta="${variant_dir}/${variant_name}.fasta"
+            
+            echo ">${variant_name}" > ${variant_fasta}
+            echo "${variant_seq}" >> ${variant_fasta}
+            
+            # Run monomer prediction
+            run_monomer_alignment ${variant_fasta} ${variant_dir} ${variant_name}
+            run_monomer_prediction ${variant_fasta} ${variant_dir} ${variant_name}
+            
+            # Create multimer directory and FASTA
+            multimer_dir="${RESULTS_DIR}/${variant_name}_multimer"
+            mkdir -p ${multimer_dir}
+            multimer_fasta="${multimer_dir}/${variant_name}_multimer.fasta"
+            
+            echo ">${variant_name}" > ${multimer_fasta}
+            echo "${variant_seq}" >> ${multimer_fasta}
+            echo ">${IL8_BASENAME}" >> ${multimer_fasta}
+            echo "${IL8_SEQ}" >> ${multimer_fasta}
+            
+            # Run multimer prediction
+            run_multimer_prediction ${multimer_fasta} ${multimer_dir} ${variant_name}
+            
+            # Calculate binding energy
+            complex_pdb="${multimer_dir}/ranked_0.pdb"
+            if [ -f ${complex_pdb} ]; then
+                binding_energy=$(calc_binding_energy ${complex_pdb} ${variant_name})
+                echo "[INFO] Variant ${variant_name} binding energy: ${binding_energy} kcal/mol"
+                ROUND_SCORED_VARIANTS+=("${variant_name}:${variant_seq}:${binding_energy}")
+            else
+                echo "[WARNING] Failed to generate complex structure for ${variant_name}"
+            fi
+        done
+    done
+    
+    # Sort variants by binding energy and get top hits
+    echo "[INFO] Finding top hits for Round $((round+1))"
+    
+    # Add all variants to overall list
+    ALL_SCORED_VARIANTS+=("${ROUND_SCORED_VARIANTS[@]}")
+    
+    # Sort variants by energy (this is a simple sort - in real script use more robust sorting)
+    SORTED_VARIANTS=($(printf '%s\n' "${ROUND_SCORED_VARIANTS[@]}" | sort -t: -k3 -n))
+    
+    # Get top N hits
+    TOP_SEQUENCES=()
+    echo "[INFO] Top ${NUM_TOP_HITS} hits for Round $((round+1)):"
+    for ((i=0; i<${NUM_TOP_HITS} && i<${#SORTED_VARIANTS[@]}; i++)); do
+        IFS=':' read -r name seq energy <<< "${SORTED_VARIANTS[i]}"
+        echo "  $((i+1)). ${name} | Binding Energy = ${energy} kcal/mol | Seq = ${seq}"
+        TOP_SEQUENCES+=("${seq}")
+    done
+done
+
+# Report overall top hits
+echo "[INFO] All rounds completed. Finding overall top hits..."
+
+# Sort all variants by energy
+SORTED_ALL=($(printf '%s\n' "${ALL_SCORED_VARIANTS[@]}" | sort -t: -k3 -n))
+
+# Display top 10 overall
+echo "[INFO] Top 10 variants across all rounds (lowest energy first):"
+for ((i=0; i<10 && i<${#SORTED_ALL[@]}; i++)); do
+    IFS=':' read -r name seq energy <<< "${SORTED_ALL[i]}"
+    echo "  $((i+1)). ${name} | Energy = ${energy} kcal/mol | Seq = ${seq}"
+done
+
+echo "[INFO] Done! Results are available in ${RESULTS_DIR}"
